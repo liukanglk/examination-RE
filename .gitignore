@@ -9,6 +9,7 @@
 /.settings
 /.classpath
 /.project
+/target
 
 # Compiled class file
 *.class
@@ -27,3 +28,7 @@
 *.iml
 *.ipr
 /out/
+
+# ignore Maven generated target folders
+target
+out
